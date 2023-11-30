@@ -6,7 +6,12 @@ package Sarwar.DeputyOfficer;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.web.WebView;
 
 /**
  * FXML Controller class
@@ -15,6 +20,17 @@ import javafx.fxml.Initializable;
  */
 public class GeolocationTrackingController implements Initializable {
 
+    @FXML
+    private WebView mapWebView;
+    @FXML
+    private TableView<?> trackerTableColumn;
+    @FXML
+    private TableColumn<?, ?> vehicleTrackTableColumn;
+    @FXML
+    private TableColumn<?, ?> eqpTrackTableColumn;
+    @FXML
+    private TableColumn<?, ?> persTrackTableColumn;
+
     /**
      * Initializes the controller class.
      */
@@ -22,5 +38,17 @@ public class GeolocationTrackingController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+
+    @FXML
+    private void startTrackingOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void stopTrackingOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void ReturnToDashboardOnClick(ActionEvent event) {
+    }
     
 }

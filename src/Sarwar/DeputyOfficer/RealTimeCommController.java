@@ -6,7 +6,11 @@ package Sarwar.DeputyOfficer;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.ListView;
+import javafx.scene.control.TextField;
 
 /**
  * FXML Controller class
@@ -15,6 +19,11 @@ import javafx.fxml.Initializable;
  */
 public class RealTimeCommController implements Initializable {
 
+    @FXML
+    private ListView<?> viewMessList;
+    @FXML
+    private TextField sendMessTextField;
+
     /**
      * Initializes the controller class.
      */
@@ -22,5 +31,13 @@ public class RealTimeCommController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+
+    @FXML
+    private void sendMessOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void ReturnToDashboardOnClick(ActionEvent event) {
+    }
     
 }

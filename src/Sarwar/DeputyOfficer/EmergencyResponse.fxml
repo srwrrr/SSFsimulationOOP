@@ -9,7 +9,7 @@
 <AnchorPane id="AnchorPane" prefHeight="459.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sarwar.DeputyOfficer.EmergencyResponseController">
    <children>
       <Line endX="563.0" layoutX="175.0" layoutY="55.0" startX="-174.0" strokeWidth="3.0" />
-      <Line endX="563.5" layoutX="176.0" layoutY="352.0" startX="-174.0" strokeWidth="3.0" />
+      <Line endX="563.5" layoutX="176.0" layoutY="389.0" startX="-174.0" strokeWidth="3.0" />
       <Label layoutX="234.0" layoutY="14.0" text="Emergency Response Protocols">
          <font>
             <Font name="System Italic" size="24.0" />
@@ -40,6 +40,6 @@
             <Font size="13.0" />
          </font>
       </Button>
-      <Button layoutX="548.0" layoutY="394.0" mnemonicParsing="false" onAction="#ReturnToDashboardOnClick" prefHeight="35.0" prefWidth="168.0" text="Dashboard" />
+      <Button layoutX="551.0" layoutY="403.0" mnemonicParsing="false" onAction="#ReturnToDashboardOnClick" prefHeight="35.0" prefWidth="168.0" text="Dashboard" />
    </children>
 </AnchorPane>

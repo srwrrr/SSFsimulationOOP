@@ -19,7 +19,7 @@
             <Font name="System Italic" size="18.0" />
          </font>
       </Label>
-      <Button layoutX="766.0" layoutY="578.0" mnemonicParsing="false" onAction="#ReturnToDashboardOnClick" prefHeight="25.0" prefWidth="138.0" text="Dashboard" />
+      <Button layoutX="764.0" layoutY="581.0" mnemonicParsing="false" onAction="#ReturnToDashboardOnClick" prefHeight="37.0" prefWidth="138.0" text="Dashboard" />
       <TableView fx:id="eqpTableColumn" layoutX="479.0" layoutY="89.0" prefHeight="440.0" prefWidth="412.0">
         <columns>
           <TableColumn fx:id="eqpIDTableColumn" prefWidth="90.0" text="Equipment ID" />

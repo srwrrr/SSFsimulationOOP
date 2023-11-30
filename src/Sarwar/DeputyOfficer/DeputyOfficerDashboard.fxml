@@ -13,7 +13,7 @@
             <Font name="System Bold" size="36.0" />
          </font>
       </Label>
-      <Line endX="690.0" layoutX="123.0" layoutY="93.0" startX="-100.0" strokeWidth="3.0" />
+      <Line endX="708.5" layoutX="123.0" layoutY="93.0" startX="-123.0" strokeWidth="3.0" />
       <Button layoutX="34.0" layoutY="327.0" mnemonicParsing="false" onAction="#ViewEqpOnClick" text="Equipment Updates" />
       <Button layoutX="34.0" layoutY="366.0" mnemonicParsing="false" onAction="#ViewReportOnClick" text="Generate Reports" />
       <Button layoutX="601.0" layoutY="209.0" mnemonicParsing="false" onAction="#ViewRealTimeOnClick" prefHeight="53.0" prefWidth="199.0" text="Real Time Communication" />
@@ -22,10 +22,11 @@
       <Button layoutX="34.0" layoutY="223.0" mnemonicParsing="false" onAction="#ViewCommunityOnClick" text="Community Management" />
       <Button layoutX="35.0" layoutY="174.0" mnemonicParsing="false" onAction="#ViewVehicleOnClick" text="Vehicle Management" />
       <Button layoutX="671.0" layoutY="286.0" mnemonicParsing="false" onAction="#ViewLocationOnClick" prefHeight="53.0" prefWidth="129.0" text="Geolocation Tracking" />
-      <Button layoutX="710.0" layoutY="473.0" mnemonicParsing="false" onAction="#LogoutFromDashboardOnClick" prefHeight="39.0" prefWidth="90.0" text="Logout">
+      <Button layoutX="710.0" layoutY="484.0" mnemonicParsing="false" onAction="#LogoutFromDashboardOnClick" prefHeight="39.0" prefWidth="90.0" text="Logout">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
+      <Line endX="721.0" layoutX="110.0" layoutY="472.0" startX="-110.0" strokeWidth="3.0" />
    </children>
 </AnchorPane>
