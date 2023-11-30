@@ -13,7 +13,7 @@
             <Font name="System Bold" size="36.0" />
          </font>
       </Label>
-      <Line endX="651.0" layoutX="115.0" layoutY="79.0" startX="-100.0" strokeWidth="3.0" />
+      <Line endX="664.0" layoutX="115.0" layoutY="79.0" startX="-115.0" strokeWidth="3.0" />
       <Button layoutX="596.0" layoutY="197.0" mnemonicParsing="false" onAction="#ViewDatabaseOnClick" text="Backup Database">
          <font>
             <Font size="18.0" />
@@ -30,10 +30,11 @@
             <Font size="18.0" />
          </font>
       </Button>
-      <Button layoutX="676.0" layoutY="517.0" mnemonicParsing="false" onAction="#LogoutFromDashboardOnClick" text="Logout">
+      <Button layoutX="683.0" layoutY="510.0" mnemonicParsing="false" onAction="#LogoutFromDashboardOnClick" text="Logout">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
+      <Line endX="664.0" layoutX="118.0" layoutY="495.0" startX="-115.0" strokeWidth="3.0" />
    </children>
 </AnchorPane>
