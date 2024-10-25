@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="430.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.DirectorGeneralDashboardController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="446.0" prefWidth="792.0">
+         <children>
+            <Label layoutX="294.0" layoutY="14.0" prefHeight="52.0" prefWidth="276.0" text="Director General" textFill="#340e86">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Label>
+            <ScrollPane hbarPolicy="NEVER" layoutY="89.0" prefHeight="357.0" prefWidth="792.0">
+               <content>
+                  <VBox alignment="TOP_CENTER" prefHeight="356.0" prefWidth="792.0" spacing="15.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#ListOfSecurityPersonnelButtonOnClick" prefHeight="37.0" prefWidth="227.0" text="List of security personnel" />
+                        <Button layoutX="293.0" layoutY="10.0" mnemonicParsing="false" onAction="#AllocateBudgetButtonOnClick" prefHeight="37.0" prefWidth="227.0" text="Allocate Budget" />
+                        <Button layoutX="293.0" layoutY="62.0" mnemonicParsing="false" onAction="#CreateTaskButtonOnClick" prefHeight="37.0" prefWidth="227.0" text="Create Task" />
+                        <Button layoutX="293.0" layoutY="114.0" mnemonicParsing="false" onAction="#EvaluateSecurityPersonnelButtonOnClick" prefHeight="37.0" prefWidth="227.0" text="Evaluate security personnel" />
+                        <Button layoutX="293.0" layoutY="218.0" mnemonicParsing="false" onAction="#ListOfVVIPButtonOnClick" prefHeight="37.0" prefWidth="227.0" text="List of VVIP" />
+                        <Button layoutX="293.0" layoutY="270.0" mnemonicParsing="false" onAction="#SetEmergencyMeetingButtonOnClick" prefHeight="37.0" prefWidth="227.0" text="Set emergency meeting" />
+                     </children>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

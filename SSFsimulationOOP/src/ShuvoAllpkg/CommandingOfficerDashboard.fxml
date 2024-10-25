@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ShuvoAllpkg.CommandingOfficerDashboardController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="-1.0" prefHeight="446.0" prefWidth="792.0">
+         <children>
+            <Label layoutX="294.0" layoutY="14.0" prefHeight="52.0" prefWidth="276.0" text="Commanding Officer" textFill="#340e86">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Label>
+            <ScrollPane hbarPolicy="NEVER" layoutY="89.0" prefHeight="357.0" prefWidth="792.0">
+               <content>
+                  <VBox alignment="TOP_CENTER" prefHeight="356.0" prefWidth="792.0" spacing="15.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#OperatiosStatusButtonOnClick" prefHeight="37.0" prefWidth="227.0" text="Operration Status" />
+                        <Button layoutX="293.0" layoutY="10.0" mnemonicParsing="false" onAction="#MissionsButtonOnClick" prefHeight="37.0" prefWidth="227.0" text="Miisions" />
+                        <Button layoutX="293.0" layoutY="62.0" mnemonicParsing="false" onAction="#SecurityProtocolsButtonOnClick" prefHeight="37.0" prefWidth="227.0" text="Security Protocols" />
+                        <Button layoutX="293.0" layoutY="114.0" mnemonicParsing="false" onAction="#AddressReportButtonOnClick" prefHeight="37.0" prefWidth="227.0" text="Address Reports" />
+                        <Button layoutX="293.0" layoutY="218.0" mnemonicParsing="false" onAction="#ReviewBudgetButtonOnClick" prefHeight="37.0" prefWidth="227.0" text="Review Budget" />
+                        <Button layoutX="293.0" layoutY="270.0" mnemonicParsing="false" onAction="#IntelligenceUpdateButtonOnClick" prefHeight="37.0" prefWidth="227.0" text="Intelligence Update" />
+                     </children>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

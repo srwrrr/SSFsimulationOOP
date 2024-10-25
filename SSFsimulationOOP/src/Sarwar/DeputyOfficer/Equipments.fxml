@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="632.0" prefWidth="914.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sarwar.DeputyOfficer.EquipmentsController">
+   <children>
+      <Line endX="813.0" layoutX="101.0" layoutY="54.0" startX="-100.0" strokeWidth="3.0" />
+      <Line endX="810.5" layoutX="103.0" layoutY="565.0" startX="-100.0" strokeWidth="3.0" />
+      <Label layoutX="303.0" layoutY="14.0" text="Equipment Inventory and Maintenance  ">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="ReturnToDashboardButton" layoutX="764.0" layoutY="581.0" mnemonicParsing="false" onAction="#ReturnToDashboardOnClick" prefHeight="37.0" prefWidth="138.0" text="Dashboard" />
+      <TableView fx:id="eqpTableColumn" layoutX="479.0" layoutY="89.0" prefHeight="440.0" prefWidth="412.0">
+        <columns>
+          <TableColumn fx:id="eqpIDTableColumn" prefWidth="90.0" text="Equipment ID" />
+          <TableColumn fx:id="eqpNameTableColumn" prefWidth="196.0" text="Equipment Name" />
+            <TableColumn fx:id="eqpMainTableColumn" prefWidth="125.0" text="Maintenance Date" />
+        </columns>
+      </TableView>
+      <Button layoutX="51.0" layoutY="304.0" mnemonicParsing="false" onAction="#addEqpOnClick" text="Add Equipment" />
+      <Button layoutX="183.0" layoutY="304.0" mnemonicParsing="false" onAction="#removeEqpOnClick" text="Remove Equipment" />
+      <Button layoutX="327.0" layoutY="304.0" mnemonicParsing="false" onAction="#performMainOnClick" text="Perform Maintenance" />
+      <Label layoutX="49.0" layoutY="134.0" text="Equipment ID:" />
+      <Label layoutX="49.0" layoutY="182.0" text="Equipment Name:" />
+      <Label layoutX="50.0" layoutY="229.0" text="Maintenance Date:" />
+      <TextField fx:id="eqpIDTextField" layoutX="177.0" layoutY="130.0" prefHeight="25.0" prefWidth="216.0" />
+      <TextField fx:id="eqpNameTextField" layoutX="177.0" layoutY="178.0" prefHeight="25.0" prefWidth="216.0" />
+      <DatePicker fx:id="eqpMainDatePicker" layoutX="177.0" layoutY="225.0" prefHeight="25.0" prefWidth="216.0" />
+   </children>
+</AnchorPane>

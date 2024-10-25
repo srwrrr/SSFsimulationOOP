@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="537.0" prefWidth="831.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sarwar.DeputyOfficer.DeputyOfficerDashboardController">
+   <children>
+      <Label layoutX="291.0" layoutY="25.0" text="Deputy Officer">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Line endX="708.5" layoutX="123.0" layoutY="93.0" startX="-123.0" strokeWidth="3.0" />
+      <Button fx:id="EqpButton" layoutX="34.0" layoutY="327.0" mnemonicParsing="false" onAction="#ViewEqpOnClick" text="Equipment Updates" />
+      <Button fx:id="RepButton" layoutX="34.0" layoutY="366.0" mnemonicParsing="false" onAction="#ViewReportOnClick" text="Generate Reports" />
+      <Button fx:id="RTCButton" layoutX="601.0" layoutY="209.0" mnemonicParsing="false" onAction="#ViewRealTimeOnClick" prefHeight="53.0" prefWidth="199.0" text="Real Time Communication" />
+      <Button fx:id="EmergencyButton" layoutX="601.0" layoutY="133.0" mnemonicParsing="false" onAction="#ViewProtocolOnClick" prefHeight="53.0" prefWidth="199.0" text="Emergency Response Protocol" />
+      <Button fx:id="EventButton" layoutX="35.0" layoutY="133.0" mnemonicParsing="false" onAction="#ViewEventOnClick" text="Event Management" />
+      <Button fx:id="CommButton" layoutX="34.0" layoutY="223.0" mnemonicParsing="false" onAction="#ViewCommunityOnClick" text="Community Management" />
+      <Button fx:id="VehicleButton" layoutX="35.0" layoutY="174.0" mnemonicParsing="false" onAction="#ViewVehicleOnClick" text="Vehicle Management" />
+      <Button fx:id="GeoButton" layoutX="671.0" layoutY="286.0" mnemonicParsing="false" onAction="#ViewLocationOnClick" prefHeight="53.0" prefWidth="129.0" text="Geolocation Tracking" />
+      <Button fx:id="LogoutButton" layoutX="710.0" layoutY="484.0" mnemonicParsing="false" onAction="#LogoutFromDashboardOnClick" prefHeight="39.0" prefWidth="90.0" text="Logout">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Line endX="721.0" layoutX="110.0" layoutY="472.0" startX="-110.0" strokeWidth="3.0" />
+      <Label alignment="CENTER" layoutX="306.0" layoutY="199.0" opacity="0.26" prefHeight="127.0" prefWidth="221.0" text="SSF">
+         <font>
+            <Font name="Franklin Gothic Medium Italic" size="96.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

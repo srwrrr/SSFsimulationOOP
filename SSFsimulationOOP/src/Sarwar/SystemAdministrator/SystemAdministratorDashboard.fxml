@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="590.0" prefWidth="990.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sarwar.SystemAdministrator.SystemAdministratorDashboardController">
+   <children>
+      <Label layoutX="329.0" layoutY="14.0" prefHeight="53.0" prefWidth="371.0" text="System Administrator">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Line endX="875.0" layoutX="115.0" layoutY="79.0" startX="-115.0" strokeWidth="3.0" />
+      <Button fx:id="BackButton" layoutX="766.0" layoutY="197.0" mnemonicParsing="false" onAction="#ViewDatabaseOnClick" prefHeight="39.0" prefWidth="201.0" text="Backup Database">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="UsersListButton" layoutX="30.0" layoutY="138.0" mnemonicParsing="false" onAction="#ViewUsersOnClick" prefHeight="39.0" prefWidth="201.0" text="View Users List" />
+      <Button fx:id="ManageButton" layoutX="30.0" layoutY="266.0" mnemonicParsing="false" onAction="#ViewUsersOnClick" prefHeight="39.0" prefWidth="201.0" text="Manage User Accounts" />
+      <Button fx:id="CreateUserButton" layoutX="30.0" layoutY="197.0" mnemonicParsing="false" onAction="#ViewCreateOnClick" prefHeight="39.0" prefWidth="201.0" text="Create User" />
+      <Button fx:id="NotButton" layoutX="766.0" layoutY="138.0" mnemonicParsing="false" onAction="#ViewNotificationOnClick" text="Broadcast Notification">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="LogoutButton" layoutX="866.0" layoutY="521.0" mnemonicParsing="false" onAction="#LogoutFromDashboardOnClick" text="Logout">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Line endX="873.5" layoutX="118.0" layoutY="495.0" startX="-115.0" strokeWidth="3.0" />
+      <Label alignment="CENTER" layoutX="161.0" layoutY="129.0" opacity="0.28" prefHeight="274.0" prefWidth="707.0" text="SSF">
+         <font>
+            <Font name="Sitka Banner" size="96.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
