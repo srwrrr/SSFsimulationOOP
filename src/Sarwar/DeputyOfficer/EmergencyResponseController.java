@@ -4,12 +4,18 @@
  */
 package Sarwar.DeputyOfficer;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
+import javafx.stage.Stage;
 
 /**
  * FXML Controller class
@@ -17,6 +23,19 @@ import javafx.scene.control.Alert;
  * @author sarwa
  */
 public class EmergencyResponseController implements Initializable {
+
+    @FXML
+    private Button ReturnToDashboardButton;
+    @FXML
+    private Button EvacButton;
+    @FXML
+    private Button ILButton;
+    @FXML
+    private Button MAButton;
+    @FXML
+    private Button RIButton;
+    @FXML
+    private Button ECButton;
 
     /**
      * Initializes the controller class.
@@ -29,6 +48,16 @@ public class EmergencyResponseController implements Initializable {
 
     @FXML
     private void ReturnToDashboardOnClick(ActionEvent event) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/Sarwar/DeputyOfficer/DeputyOfficerDashboard.fxml"));
+            Parent root = loader.load();
+            Stage stage = (Stage) ReturnToDashboardButton.getScene().getWindow();
+            Scene scene = new Scene(root);
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace(); 
+        }
     }
 
     @FXML

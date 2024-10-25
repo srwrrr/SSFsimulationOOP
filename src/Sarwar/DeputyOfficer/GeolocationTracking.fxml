@@ -28,6 +28,6 @@
       </TableView>
       <Button layoutX="116.0" layoutY="347.0" mnemonicParsing="false" onAction="#startTrackingOnClick" text="Start tracking" />
       <Button layoutX="242.0" layoutY="347.0" mnemonicParsing="false" onAction="#stopTrackingOnClick" text="Stop tracking" />
-      <Button layoutX="547.0" layoutY="445.0" mnemonicParsing="false" onAction="#ReturnToDashboardOnClick" prefHeight="25.0" prefWidth="138.0" text="Dashboard" />
+      <Button fx:id="ReturnToDashboardButton" layoutX="547.0" layoutY="445.0" mnemonicParsing="false" onAction="#ReturnToDashboardOnClick" prefHeight="25.0" prefWidth="138.0" text="Dashboard" />
    </children>
 </AnchorPane>

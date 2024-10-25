@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="mainpkg.SetMeetingController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="455.0" prefWidth="801.0">
+         <children>
+            <Label layoutX="20.0" layoutY="5.0" prefHeight="48.0" prefWidth="158.0" text="Set Meeting" textFill="#110a72">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <TextField layoutX="50.0" layoutY="70.0" promptText="Meeting Title" />
+            <TextField layoutX="50.0" layoutY="111.0" promptText="Meeting Time" />
+            <DatePicker layoutX="50.0" layoutY="155.0" prefHeight="25.0" prefWidth="149.0" promptText="Meeting Title" />
+            <TextArea layoutX="258.0" layoutY="63.0" prefHeight="200.0" prefWidth="500.0" />
+            <Button layoutX="58.0" layoutY="385.0" mnemonicParsing="false" onAction="#BackButtonOnClick" text="Back" />
+            <Button layoutX="649.0" layoutY="385.0" mnemonicParsing="false" onAction="#ExitButtonOnClick" text="Exit" />
+            <Button layoutX="53.0" layoutY="204.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="149.0" text="Show Meeting Details in Text Area" wrapText="true" />
+            <Line endX="-2.0" endY="226.0" layoutX="229.0" layoutY="53.0" startX="-2.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

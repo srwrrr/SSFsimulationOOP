@@ -11,8 +11,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="541.0" prefWidth="750.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="Sarwar.DeputyOfficer.GenertateReportController">
+<AnchorPane id="AnchorPane" prefHeight="541.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sarwar.DeputyOfficer.GenertateReportController">
    <children>
       <Line endX="649.5" layoutX="101.0" layoutY="77.0" startX="-100.0" strokeWidth="3.0" />
       <Line endX="600.0" layoutX="150.0" layoutY="478.0" startX="-150.0" strokeWidth="3.0" />
@@ -36,6 +35,6 @@
       <Button layoutX="385.0" layoutY="126.0" mnemonicParsing="false" onAction="#addReportOnClick" text="Add Report" />
       <Button layoutX="626.0" layoutY="433.0" mnemonicParsing="false" onAction="#deleteReportOnClick" text="Delete Report" />
       <Button layoutX="516.0" layoutY="433.0" mnemonicParsing="false" onAction="#viewReportOnClick" text="View Report" />
-      <Button layoutX="558.0" layoutY="502.0" mnemonicParsing="false" onAction="#ReturnToDashboardOnClick" prefHeight="25.0" prefWidth="158.0" text="Dashboard" />
+      <Button fx:id="ReturnToDashboardButton" layoutX="558.0" layoutY="502.0" mnemonicParsing="false" onAction="#ReturnToDashboardOnClick" prefHeight="25.0" prefWidth="158.0" text="Dashboard" />
    </children>
 </AnchorPane>

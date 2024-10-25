@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ShuvoAllpkg.PayRollController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="1.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <AnchorPane id="AnchorPane" layoutX="1.0" prefHeight="420.0" prefWidth="777.0">
+               <children>
+                  <Label layoutX="-32.0" layoutY="-6.0" prefHeight="425.0" prefWidth="226.0" style="-fx-background-color: lavender;" />
+                  <Button layoutX="726.0" layoutY="384.0" mnemonicParsing="false" onMouseClicked="#ExitButton" text="Exit" />
+                  <Label layoutX="21.0" layoutY="-92.0" prefHeight="239.0" prefWidth="103.0" rotate="-90.0" style="-fx-background-color: lightblue;">
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </Label>
+                  <Label layoutX="72.0" layoutY="19.0" text="HR">
+                     <font>
+                        <Font name="System Bold" size="31.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="211.0" layoutY="384.0" mnemonicParsing="false" onMouseClicked="#BackButton" text="Back" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="189.0" layoutY="-3.0" prefHeight="85.0" prefWidth="589.0" style="-fx-background-color: lightgray;" text="Pay Roll">
+                     <font>
+                        <Font name="System Bold" size="31.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="EnterEmployeeNameFx" layoutX="287.0" layoutY="141.0" promptText="Enter Employee Name" />
+                  <ComboBox fx:id="desgnationfx" layoutX="296.0" layoutY="223.0" prefHeight="31.0" prefWidth="168.0" promptText="Designation" />
+                  <TextField fx:id="Amountfx" layoutX="287.0" layoutY="179.0" promptText="Amount" />
+                  <Button layoutX="297.0" layoutY="275.0" mnemonicParsing="false" onMouseClicked="#Confirmbutton" prefHeight="25.0" prefWidth="176.0" text="Confirm" />
+                  <TextArea fx:id="ViewSalary" layoutX="478.0" layoutY="135.0" prefHeight="119.0" prefWidth="200.0" />
+                  <Label layoutX="209.0" layoutY="142.0" prefHeight="21.0" prefWidth="51.0" text="Name:" />
+                  <Label layoutX="210.0" layoutY="184.0" prefHeight="21.0" prefWidth="74.0" text="Amount" />
+               </children>
+            </AnchorPane>
+            <Label layoutX="212.0" layoutY="227.0" prefHeight="21.0" prefWidth="87.0" text="Designation" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

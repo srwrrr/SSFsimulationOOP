@@ -22,7 +22,7 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="15.0" layoutY="233.0" text="Select User Type:">
+      <Label layoutX="53.0" layoutY="233.0" text="Select User:">
          <font>
             <Font size="18.0" />
          </font>
@@ -32,9 +32,19 @@
             <Font name="System Bold Italic" size="36.0" />
          </font>
       </Label>
-      <Button fx:id="loginButton" layoutX="264.0" layoutY="348.0" mnemonicParsing="false" onAction="#loginButtonOnClick" prefHeight="39.0" prefWidth="234.0" text="Login" />
-      <TextField fx:id="loginUserIDField" layoutX="164.0" layoutY="150.0" prefHeight="25.0" prefWidth="217.0" />
-      <ComboBox fx:id="loginUserTypeSelectionCombobox" layoutX="164.0" layoutY="234.0" prefHeight="25.0" prefWidth="217.0" />
-      <PasswordField fx:id="loginPasswordField" layoutX="164.0" layoutY="191.0" prefHeight="25.0" prefWidth="217.0" />
+      <Button fx:id="loginButton" layoutX="249.0" layoutY="318.0" mnemonicParsing="false" onAction="#loginButtonOnClick" prefHeight="53.0" prefWidth="265.0" text="Login" />
+      <TextField fx:id="loginUserIDField" layoutX="164.0" layoutY="150.0" prefHeight="25.0" prefWidth="217.0" promptText="ID" />
+      <ComboBox fx:id="loginUserTypeSelectionCombobox" layoutX="164.0" layoutY="234.0" prefHeight="25.0" prefWidth="217.0" promptText="User " />
+      <PasswordField fx:id="loginPasswordField" layoutX="164.0" layoutY="191.0" prefHeight="25.0" prefWidth="217.0" promptText="Password" />
+      <Label layoutX="498.0" layoutY="26.0" text="Special Security Forces" textFill="#f20000">
+         <font>
+            <Font name="Candara" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="546.0" layoutY="121.0" opacity="0.52" text="SSF" textFill="#979797">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

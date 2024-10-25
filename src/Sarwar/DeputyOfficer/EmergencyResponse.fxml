@@ -15,31 +15,31 @@
             <Font name="System Italic" size="24.0" />
          </font>
       </Label>
-      <Button layoutX="432.0" layoutY="274.0" mnemonicParsing="false" onAction="#handleEvac" text="Evacuation">
+      <Button fx:id="EvacButton" layoutX="432.0" layoutY="274.0" mnemonicParsing="false" onAction="#handleEvac" text="Evacuation">
          <font>
             <Font size="13.0" />
          </font>
       </Button>
-      <Button layoutX="270.0" layoutY="274.0" mnemonicParsing="false" onAction="#handleLockdown" text="Lockdown">
+      <Button fx:id="ILButton" layoutX="270.0" layoutY="274.0" mnemonicParsing="false" onAction="#handleLockdown" text="Initiate Lockdown">
          <font>
             <Font size="13.0" />
          </font>
       </Button>
-      <Button layoutX="192.0" layoutY="182.0" mnemonicParsing="false" onAction="#handleMedAss" text="Medical Assistance">
+      <Button fx:id="MAButton" layoutX="192.0" layoutY="182.0" mnemonicParsing="false" onAction="#handleMedAss" text="Medical Assistance">
          <font>
             <Font size="13.0" />
          </font>
       </Button>
-      <Button layoutX="336.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleIncident" prefHeight="29.0" prefWidth="113.0" text="Report Incident">
+      <Button fx:id="RIButton" layoutX="336.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleIncident" prefHeight="29.0" prefWidth="113.0" text="Report Incident">
          <font>
             <Font size="13.0" />
          </font>
       </Button>
-      <Button layoutX="469.0" layoutY="182.0" mnemonicParsing="false" onAction="#handleEmergencyContacts" text="Emergency Contacts">
+      <Button fx:id="ECButton" layoutX="469.0" layoutY="182.0" mnemonicParsing="false" onAction="#handleEmergencyContacts" text="Emergency Contacts">
          <font>
             <Font size="13.0" />
          </font>
       </Button>
-      <Button layoutX="551.0" layoutY="403.0" mnemonicParsing="false" onAction="#ReturnToDashboardOnClick" prefHeight="35.0" prefWidth="168.0" text="Dashboard" />
+      <Button fx:id="ReturnToDashboardButton" layoutX="551.0" layoutY="403.0" mnemonicParsing="false" onAction="#ReturnToDashboardOnClick" prefHeight="35.0" prefWidth="168.0" text="Dashboard" />
    </children>
 </AnchorPane>
